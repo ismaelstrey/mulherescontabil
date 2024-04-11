@@ -18,7 +18,7 @@ function Navgator() {
   return (
     <>
       {" "}
-      <div className="flex z-20 h-20 bg-zinc-800 w-full text-white justify-around">
+      <div className="flex fixed top-0 z-50 h-20 bg-zinc-800 w-full text-white justify-around">
         <div className="flex content-start items-center">
           <div className="flex gap-3">
             <Logo />
