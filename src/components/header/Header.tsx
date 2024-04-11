@@ -23,14 +23,15 @@ function Navgator() {
           <div className="flex gap-3">
             <Logo />
             <span className="text-2xl mt-2 text-primary">
-              Mulheres contábil
+              Mulheres Contábil
             </span>
           </div>
         </div>
         <ul className="flex gap-8 justify-center items-center">
           <NavItem href="#quem_somos">Quem somos</NavItem>
-          <NavItem href="#solucoes">Soluçoes</NavItem>
-          <NavItem href="#encontros">Encontros</NavItem>
+          <NavItem href="#solucoes">Soluções</NavItem>
+          <NavItem href="#encontros">Eventos</NavItem>
+          <NavItem href="#encontros">Contato</NavItem>
         </ul>
       </div>
     </>
