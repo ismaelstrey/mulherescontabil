@@ -10,12 +10,12 @@ export function QuemSomos() {
         <div className="container px-4 md:px-6">
           <div className="space-y-8">
             <div className="text-center">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">
                 Quem somos
               </h1>
             </div>
             <div className="mx-auto w-full space-y-6">
-              <div className="text-gray-500 md:text-xl/relaxed md:mx-auto lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-100">
+              <div className="text-white md:text-xl/relaxed md:mx-auto lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-100">
                 <div className="leading-loose">
                   Na <span>MC</span>, somos mais do que uma simples empresa de
                   contabilidade. Somos uma equipe comprometida que compreende
@@ -97,13 +97,13 @@ export function QuemSomos() {
       <section className="flex bg-primary/20 justify-center w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="grid max-w-3xl gap-6 mx-auto lg:gap-12">
-            <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
+            <div className="inline-block rounded-lg bg-zinc-800 px-3 py-1 text-sm text-white">
               Nossa Missão
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">
               Tornar se referencia no seguimento contábil para agricultura.
             </h2>
-            <div className="space-y-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
+            <div className="space-y-4 text-white md:text-xl/relaxed lg:text-base/relaxed">
               <div className="leading-loose">
                 Missão Na MC, nossa missão é ser a parceira confiável e
                 essencial para o sucesso financeiro de nossos clientes no setor
@@ -139,14 +139,14 @@ export function QuemSomos() {
       <section className="flex bg-primary/10 justify-center w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="grid max-w-3xl gap-6 mx-auto lg:gap-12">
-            <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
+            <div className="inline-block rounded-lg bg-zinc-800 text-white px-3 py-1 text-sm">
               Nossos Valores
             </div>
-            <h2 className="text-2xl text-center font-bold tracking-tighter sm:text-3xl">
+            <h2 className="text-2xl text-center font-bold tracking-tighter sm:text-3xl text-white">
               Compromisso com a Excelência, Parceria de Confiança, Conhecimento
               Especializado e Inovação Contínua
             </h2>
-            <div className="space-y-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
+            <div className="space-y-4 text-white md:text-xl/relaxed lg:text-base/relaxed">
               <span className="leading-loose gap-3 flex flex-col">
                 <p>
                   {" "}
