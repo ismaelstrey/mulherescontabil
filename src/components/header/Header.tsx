@@ -27,7 +27,7 @@ function Navgator() {
             </span>
           </div>
         </div>
-        <ul className="flex gap-8 justify-center items-center">
+        <ul className="gap-8 justify-center items-center hidden md:flex">
           <NavItem href="#quem_somos">Quem somos</NavItem>
           <NavItem href="#solucoes">Soluções</NavItem>
           <NavItem href="#encontros">Eventos</NavItem>
