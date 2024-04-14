@@ -13,6 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "image-mulher": "url('/image/mulheres.jpg')",
+        "image-mulher-calc": "url('/image/mulhercalc.png')",
       },
       colors: {
         primary: "#00FFC2",

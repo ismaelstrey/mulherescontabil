@@ -4,7 +4,7 @@ export function QuemSomos() {
   return (
     <>
       <section
-        className="flex bg-primary/30 justify-center w-full py-12 md:py-24 lg:py-32"
+        className="flex bg-primary justify-center w-full py-12 md:py-24 lg:py-32"
         id="quem_somos"
       >
         <div className="container px-4 md:px-6">
