@@ -42,6 +42,7 @@ body::-webkit-scrollbar-track {
 }
 body {
   overflow: overlay;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar-thumb {

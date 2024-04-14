@@ -34,7 +34,7 @@ export default function Hero() {
               </p>{" "}
               <p>grandes produtores</p>
             </div>
-            <span className="text-end size-96 opacity-40 ">
+            <span className="text-end size-96 opacity-40 transition-all animate-bounce">
               <Image
                 src={"/image/brazil.svg"}
                 width={400}
