@@ -1,28 +1,11 @@
 "use client";
-import React, { useEffect, useRef } from "react";
-import scrollReveal from "scrollreveal";
-
-export default function QuemSomos() {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (sectionRef.current)
-      scrollReveal().reveal(sectionRef.current, {
-        origin: "top",
-        duration: 2000,
-        distance: "20%",
-        opacity: 0,
-        reset: true,
-        rotate: {
-          x: -180,
-        },
-      });
-  }, []);
+export function QuemSomos() {
   return (
     <section
-      className="flex bg-primary justify-center w-full py-12 md:py-24 lg:py-32"
+      className="flex bg-primary justify-center w-screen py-12 md:py-24 lg:py-32"
       id="quem_somos"
     >
-      <div className="container px-4 md:px-6" id="" ref={sectionRef}>
+      <div className="flex container px-4 md:px-6">
         <div className="space-y-8">
           <div className="text-center">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">

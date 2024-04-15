@@ -4,8 +4,8 @@ import SocialMidia from "../ui/SocialMidia";
 
 export default function Footer() {
   return (
-    <div>
-      <div className="flex flex-col md:flex-row w-full min-h-40 bg-zinc-800 text-white/15 gap-4 justify-around mt-8 ">
+    <div className="flex flex-col">
+      <div className="flex flex-col md:flex-row w-screen min-h-40 bg-zinc-800 text-white/15 gap-4 justify-around">
         <div>
           <ul>
             <li>a</li>
@@ -38,7 +38,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex w-full text-center justify-center text-zinc-400">
+      <div className="flex w-screen text-center justify-center text-zinc-400">
         <span>Todos os direitos reservados a mulheres.com.br</span>
       </div>
       <a
@@ -46,7 +46,6 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {" "}
         <Image
           src={"/image/whatsapp.svg"}
           height={50}

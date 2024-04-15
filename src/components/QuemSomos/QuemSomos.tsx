@@ -1,15 +1,24 @@
-import Profissionais from "../pages/Profissionais";
-import NossaMissao from "../pages/NossaMissao";
-import NossosValores from "../pages/NossosValores";
-import QuemSomos from "../pages/QuemSomos";
+import Motion from "../pages/Motion";
+import { NossaMissao } from "../pages/NossaMissao";
+import { NossosValores } from "../pages/NossosValores";
+import { Profissionais } from "../pages/Profissionais";
+import { QuemSomos } from "../pages/QuemSomos";
 
 export function HomePage() {
   return (
     <>
-      <QuemSomos />
-      <Profissionais />
-      <NossaMissao />
-      <NossosValores />
+      <Motion>
+        <QuemSomos />
+      </Motion>
+      <Motion>
+        <Profissionais />
+      </Motion>
+      <Motion>
+        <NossaMissao />
+      </Motion>
+      <Motion>
+        <NossosValores />
+      </Motion>
     </>
   );
 }

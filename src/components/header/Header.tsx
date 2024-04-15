@@ -17,8 +17,7 @@ function NavItem(props: PropsItem) {
 function Navgator() {
   return (
     <>
-      {" "}
-      <div className="flex fixed top-0 z-50 h-20 bg-zinc-800 w-full text-white justify-around">
+      <div className="flex fixed left-0 top-0 z-50 h-20 bg-zinc-800 w-screen text-white justify-around">
         <div className="flex content-start items-center">
           <div className="flex gap-3">
             <Logo />

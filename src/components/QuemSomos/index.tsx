@@ -1,1 +1,1 @@
-export { QuemSomos } from "./QuemSomos";
+export { HomePage } from "./QuemSomos";

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <main className="flex flex-col items-center justify-between bg-white/80">
+    <main className="flex w-screen flex-col items-center justify-between bg-white/80">
       <Navgator />
       <article className="flex w-full relative">
         <video
@@ -37,6 +37,7 @@ export default function Hero() {
             <span className="text-end size-96 opacity-40 transition-all animate-bounce">
               <Image
                 src={"/image/brazil.svg"}
+                placeholder="empty"
                 width={400}
                 height={400}
                 alt="brazil"

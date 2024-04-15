@@ -3,6 +3,6 @@ interface PropsTemplate {
   children: ReactNode;
 }
 
-export default function Template({ children }: PropsTemplate) {
-  return <div className="bg-zinc-800 bg-no-repeat bg-cover">{children}</div>;
+export function Template({ children }: PropsTemplate) {
+  return <div className="flex flex-col bg-zinc-800 m-0 p-0">{children}</div>;
 }

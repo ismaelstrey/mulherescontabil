@@ -2,21 +2,10 @@
 import React, { useEffect, useRef } from "react";
 import scrollReveal from "scrollreveal";
 
-export default function NossaMissao() {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (sectionRef.current)
-      scrollReveal().reveal(sectionRef.current, {
-        origin: "top",
-        duration: 2000,
-        distance: "20%",
-        opacity: 0,
-        reset: true,
-      });
-  }, []);
+export function NossaMissao() {
   return (
-    <section className="flex bg-primary/20 justify-center w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6" ref={sectionRef}>
+    <section className="flex bg-primary/20 justify-center w-screen py-12 md:py-24 lg:py-32">
+      <div className="container px-4 md:px-6">
         <div className="grid max-w-3xl gap-6 mx-auto lg:gap-12">
           <div className="inline-block rounded-lg bg-zinc-800 px-3 py-1 text-sm text-white">
             Nossa Missão
