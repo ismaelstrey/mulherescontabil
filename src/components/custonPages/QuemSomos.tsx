@@ -1,22 +1,25 @@
 "use client";
 export function QuemSomos() {
   return (
-    <section
-      className="flex bg-primary justify-center w-screen py-12 md:py-24 lg:py-32"
-      id="quem_somos"
-    >
+    <section className="flex bg-primary justify-center w-screen">
       <div className="flex container px-4 md:px-6">
         <div className="space-y-8">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">
-              Quem somos
-            </h1>
-          </div>
-          <div className="mx-auto w-full space-y-6">
-            <div className="text-white md:text-xl/relaxed md:mx-auto lg:text-base/relaxed xl:text-xl/relaxed dark:text-green-800 font-bold">
-              <div className="leading-loose">
-                Na <span className="text-3xl text-white">MC</span>, somos mais
-                do que uma simples empresa de contabilidade. Somos uma equipe
+          <div className="mx-auto w-full">
+            <div className="flex flex-col md:flex-row md:text-xl/relaxed md:mx-auto lg:text-base/relaxed xl:text-xl/relaxed font-bold">
+              <div className="flex justify-end content-end items-end w-full rounded-lg">
+                <div className="bg-image-mulher-calc bg-no-repeat bg-cover hidden md:flex w-96 h-96  z-40"></div>
+              </div>
+              <div
+                className="leading-loose text-black shadow-lg shadow-zinc-400 p-4 rounded-lg bg-white z-40 -my-10"
+                id="quem_somos"
+              >
+                <div className="text-center">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl text-primary">
+                    Quem somos
+                  </h1>
+                </div>
+                Na <span className="text-primary">MC</span>, somos mais do que
+                uma simples empresa de contabilidade. Somos uma equipe
                 comprometida que compreende profundamente a realidade econômica
                 e as nuances do setor agrícola em nosso país. Reconhecemos as
                 dificuldades enfrentadas pelos agricultores e empresas
@@ -28,22 +31,7 @@ export function QuemSomos() {
                 apenas lidar com as demandas tradicionais da contabilidade, mas
                 também nos posiciona como parceiros estratégicos para ajudar os
                 agricultores a navegar pelas complexidades tributárias e
-                financeiras. Compreendemos que cada negócio agrícola é único, e
-                é por isso que oferecemos soluções personalizadas e orientação
-                especializada, adaptadas às necessidades específicas de cada
-                cliente. Na <span>MC</span>, estamos comprometidos em capacitar
-                nossos clientes com conhecimento e recursos que lhes permitam
-                tomar decisões financeiras informadas e estratégicas.
-                Acreditamos firmemente que, ao fornecer serviços contábeis de
-                alta qualidade e consultoria especializada em tributação,
-                podemos contribuir significativamente para o sucesso e o
-                crescimento sustentável do setor agrícola em nosso país. Nossa
-                equipe dedicada está aqui para ajudar a simplificar suas
-                operações financeiras, aliviar o fardo da conformidade
-                tributária e permitir que você concentre sua energia no que
-                realmente importa: cultivar seus negócios. Junte-se a nós na{" "}
-                <span>MC</span> e descubra como podemos fazer a diferença para o
-                seu negócio agrícola.
+                financeiras.
               </div>
             </div>
           </div>

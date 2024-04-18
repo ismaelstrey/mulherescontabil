@@ -6,7 +6,7 @@ interface PropsItem {
   children: ReactNode;
 }
 
-function NavItem(props: PropsItem) {
+export function NavItem(props: PropsItem) {
   return (
     <li className="hover:border-b-4 border-primary pb-1">
       <Link {...props} />
@@ -31,6 +31,7 @@ function Navgator() {
           <NavItem href="#solucoes">Soluções</NavItem>
           <NavItem href="#encontros">Eventos</NavItem>
           <NavItem href="#encontros">Contato</NavItem>
+          <NavItem href="/page">Page</NavItem>
         </ul>
       </div>
     </>

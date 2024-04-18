@@ -14,6 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "image-mulher": "url('/image/mulheres.jpg')",
         "image-mulher-calc": "url('/image/mulhercalc.png')",
+        "image-agro": "url('/image/bg_agro.jpg')",
+        "image-mapa": "url('/image/mapa.svg')",
+        "image-poligono": "url('/image/poligono.svg')",
       },
       colors: {
         primary: "#00FFC2",

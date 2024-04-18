@@ -1,23 +1,24 @@
 import Image from "next/image";
 import React from "react";
 import SocialMidia from "../ui/SocialMidia";
+import { NavItem } from "../header/Header";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col md:flex-row w-screen min-h-40 bg-zinc-800 text-white/15 gap-4 justify-around">
+    <div className="flex flex-col items-center border-t-4 border-primary shadow-2xl shadow-white">
+      <div className="flex h-full items-center flex-col md:flex-row w-screen min-h-40 bg-zinc-800 text-primary mt-6 gap-4 justify-around">
         <div>
-          <ul>
-            <li>a</li>
-            <li>a</li>
-            <li>a</li>
+          <ul className="flex flex-col gap-2">
+            <NavItem href="#encontros">Contato</NavItem>
+            <NavItem href="/page">Page</NavItem>
+            <NavItem href="/page">Page</NavItem>
           </ul>
         </div>
         <div>
-          <ul className="flex flex-col h-full justify-between content-between">
-            <li>b</li>
-            <li>b</li>
-            <li className="text-center">b</li>
+          <ul className="flex flex-col gap-2">
+            <NavItem href="#quem_somos">Quem somos</NavItem>
+            <NavItem href="#solucoes">Soluções</NavItem>
+            <NavItem href="#encontros">Eventos</NavItem>
           </ul>
         </div>
         <div>
@@ -39,7 +40,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-screen text-center justify-center text-zinc-400">
-        <span>Todos os direitos reservados a mulheres.com.br</span>
+        <span>
+          Copyright © 2024 Todos os direitos reservados a www.mulheres.com.br
+        </span>
       </div>
       <a
         href="https://wa.me/555199160766?text=Olá%20gostaria%20de%20saber%20mais!"

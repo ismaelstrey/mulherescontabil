@@ -2,9 +2,9 @@
 
 export function NossosValores() {
   return (
-    <section className="flex bg-primary/10 justify-center w-screen py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
-        <div className="grid max-w-3xl gap-6 mx-auto lg:gap-12">
+    <section className="flex bg-[#233D3A] justify-center w-screen">
+      <div className="flex w-full bg-image-poligono bg-cover  pb-10">
+        <div className="grid max-w-3xl gap-6 mx-auto lg:gap-12 bg-zinc-900 shadow-2xl shadow-teal-700 rounded-lg px-20 py-5 -mt-10">
           <div className="inline-block rounded-lg bg-zinc-800 text-white px-3 py-1 text-sm">
             Nossos Valores
           </div>
@@ -43,7 +43,7 @@ export function NossosValores() {
                 profissional.
               </p>
               <p>
-                <strong className="text-primary text-lg ml-6">
+                <strong className="text-primary text-lg ml-6 ">
                   3. Parceria de Confiança:
                 </strong>{" "}
                 Construímos relações de longo prazo baseadas na confiança mútua
