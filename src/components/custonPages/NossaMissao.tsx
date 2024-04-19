@@ -47,7 +47,7 @@ export function NossaMissao() {
             Nossa Missão
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">
-            Tornar se referencia no seguimento contábil para agricultura.
+            Tornar-se referência no seguimento contábil para agricultura.
           </h2>
           <div className="space-y-4 text-white md:text-xl/relaxed lg:text-base/relaxed">
             <div className="leading-loose texto" id={"test"}>

@@ -17,7 +17,7 @@ export function Profissionais() {
             <div className="flex flex-col gap-1.5 text-center text-primary">
               <h3 className="text-lg font-bold">Geriani Jaqueline Nunes </h3>
               <div className="text-sm text-primary">
-                <p>Ciências Contabeis</p> <p>Recursos Humanos</p>
+                <p>Ciências Contábeis</p> <p>Recursos Humanos</p>
                 <span>Especialista em tributação do agronegócio</span>
               </div>
             </div>
@@ -35,7 +35,7 @@ export function Profissionais() {
                 Vania Cristina Alves
               </h3>
               <div className="text-sm text-primary">
-                <p>Ciências Contabeis</p>
+                <p>Ciências Contábeis</p>
                 <span>Especialista em tributação do agronegócio</span>
               </div>
             </div>
